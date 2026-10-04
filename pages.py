@@ -1,11 +1,11 @@
-# pages.py  -  RVG Gateway v9.2
+# pages.py  -  Dragon Gateway v9.2
 # شامل: HOME_HTML, LOGIN_HTML, DASHBOARD_HTML, get_public_page_html()
 
 HOME_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RVG Gateway · codebox</title>
+<title>Dragon Gateway · Zebramaxbot</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -114,17 +114,17 @@ h1{font-size:22px;font-weight:800;letter-spacing:-.025em;margin-bottom:8px}
 
 <section class="card">
   <div class="card-head">
-    <div class="logo"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="codebox"></div>
+    <div class="logo"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="Zebramaxbot"></div>
     <div>
-      <div class="brand-name">codebox</div>
-      <div class="brand-sub">RVG Gateway</div>
+      <div class="brand-name">Zebramaxbot</div>
+      <div class="brand-sub">Dragon Gateway</div>
     </div>
     <span class="ver mono">v{version}</span>
   </div>
 
   <div class="card-body">
     <span class="eyebrow"><span class="dot"></span><span class="mono">GATEWAY ONLINE</span></span>
-    <h1>RVG Gateway در حال اجراست</h1>
+    <h1>Dragon Gateway در حال اجراست</h1>
     <p class="sub">سرویس گیت‌وی چندپروتکلی و مدیریت کاربران آماده‌ی سرویس‌دهیه. برای مدیریت لینک‌ها و کاربران وارد پنل شوید.</p>
 
     <div class="chips">
@@ -139,7 +139,7 @@ h1{font-size:22px;font-weight:800;letter-spacing:-.025em;margin-bottom:8px}
 
   <div class="card-foot">
     <span>کانال رسمی</span>
-    <a href="https://t.me/CodeBoxo" target="_blank" rel="noopener"><i class="ti ti-brand-telegram"></i>@CodeBoxo</a>
+    <a href="https://t.me/Zebramaxbot" target="_blank" rel="noopener"><i class="ti ti-brand-telegram"></i>@Zebramaxbot</a>
   </div>
 </section>
 
@@ -162,7 +162,7 @@ LOGIN_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ورود · RVG Gateway</title>
+<title>ورود · Dragon Gateway</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -421,10 +421,10 @@ input:focus~.ic-lock{color:var(--accent-hi)}
     <div>
       <section class="card">
         <div class="card-head stg">
-          <div class="logo"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="codebox"></div>
+          <div class="logo"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="Zebramaxbot"></div>
           <div>
-            <div class="brand-name">codebox</div>
-            <div class="brand-sub">RVG Gateway</div>
+            <div class="brand-name">Zebramaxbot</div>
+            <div class="brand-sub">Dragon Gateway</div>
           </div>
           <span class="ver mono">v9.2</span>
         </div>
@@ -438,8 +438,8 @@ input:focus~.ic-lock{color:var(--accent-hi)}
 
           <div class="hint stg">
             <i class="ti ti-info-circle"></i>
-            <span class="hint-label">رمز پیش‌فرض سیستم</span>
-            <span class="hint-val" tabindex="0" role="button" onclick="fillDefault()" onkeydown="if(event.key==='Enter')fillDefault()">123456</span>
+            <span class="hint-label">برای خرید به بات پیام بدید</span>
+            <span class="hint-val" tabindex="0" role="button" onclick="fillDefault()" onkeydown="if(event.key==='Enter')fillDefault()">@Zebramaxbot</span>
           </div>
 
           <form id="form" novalidate>
@@ -459,7 +459,7 @@ input:focus~.ic-lock{color:var(--accent-hi)}
 
         <div class="card-foot stg">
           <span>کانال رسمی</span>
-          <a href="https://t.me/CodeBoxo" target="_blank" rel="noopener"><i class="ti ti-brand-telegram"></i>@CodeBoxo</a>
+          <a href="https://t.me/Zebramaxbot" target="_blank" rel="noopener"><i class="ti ti-brand-telegram"></i>@Zebramaxbot</a>
         </div>
       </section>
       <p class="note">این نشست پس از ورود روی همین مرورگر نگهداری می‌شود.</p>
@@ -471,7 +471,7 @@ input:focus~.ic-lock{color:var(--accent-hi)}
 <aside class="side-panel" id="panel" aria-hidden="true">
   <div class="aura aura-1"></div><div class="aura aura-2"></div>
 
-  <div class="panel-head"><span class="bar"></span><span class="mono">RVG GATEWAY · CONTROL PLANE</span></div>
+  <div class="panel-head"><span class="bar"></span><span class="mono">Dragon Gateway · CONTROL PLANE</span></div>
 
   <div class="stage">
     <div class="slides" id="slides">
@@ -541,7 +541,7 @@ applyTheme(isDark);
 /* ── فرم ── */
 function fillDefault(){
   const pw = document.getElementById('pw');
-  pw.value = '123456';
+  pw.value = '@Zebramaxbot';
   pw.focus();
 }
 function togglePw(){
@@ -616,7 +616,7 @@ DASHBOARD_HTML = r"""<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RVG Gateway · codebox</title>
+<title>Dragon Gateway · Zebramaxbot</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -2045,7 +2045,7 @@ a{color:inherit;text-decoration:none}
           </span>
           <i class="ti ti-external-link sdev-go"></i>
         </a>
-        <a href="https://t.me/CodeBoxo" target="_blank" rel="noopener" class="sdev-card">
+        <a href="https://t.me/Zebramaxbot" target="_blank" rel="noopener" class="sdev-card">
           <span class="sdev-ic" style="background:linear-gradient(135deg,#2AABEE,#229ED9)">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="#fff"><path d="M23.05 3.6 19.6 20.4c-.26 1.15-.94 1.43-1.9.9l-5.26-3.88-2.54 2.44c-.28.28-.52.52-1.06.52l.38-5.4L19.1 6.2c.42-.38-.1-.6-.65-.22L6.6 13.4 1.4 11.76c-1.14-.36-1.16-1.14.24-1.68L21.6 2.36c.94-.34 1.77.22 1.45 1.24Z"/></svg>
           </span>
@@ -2774,7 +2774,7 @@ a{color:inherit;text-decoration:none}
 <div class="mob-top">
   <div class="ml">
     <div class="mob-logo"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="cb"></div>
-    <span class="mob-title">RVG Gateway</span>
+    <span class="mob-title">Dragon Gateway</span>
   </div>
   <div class="mob-right">
     <button class="theme-mob" id="theme-mob-btn" onclick="toggleTheme()"><i class="ti ti-sun" id="theme-mob-icon"></i></button>
@@ -2786,7 +2786,7 @@ a{color:inherit;text-decoration:none}
   <button class="sb-close" id="close-sb"><i class="ti ti-x"></i></button>
   <div class="logo">
     <div class="logo-img"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="cb"></div>
-    <div><div class="logo-name">codebox</div><div class="logo-sub">RVG Gateway · v9.2</div></div>
+    <div><div class="logo-name">Zebramaxbot</div><div class="logo-sub">Dragon Gateway · v9.2</div></div>
   </div>
   <div class="nav-wrap">
     <div class="nav-sec">پنل</div>
@@ -2806,7 +2806,7 @@ a{color:inherit;text-decoration:none}
   </div>
   <div class="sb-foot">
     <button class="theme-btn" onclick="toggleTheme()"><i class="ti ti-moon" id="theme-icon"></i> <span id="theme-label">تم روشن</span></button>
-    <a class="tg-btn" href="https://t.me/CodeBoxo" target="_blank" rel="noopener"><i class="ti ti-brand-telegram"></i> @CodeBoxo</a>
+    <a class="tg-btn" href="https://t.me/Zebramaxbot" target="_blank" rel="noopener"><i class="ti ti-brand-telegram"></i> @Zebramaxbot</a>
     <button class="logout-btn" id="logout-btn"><i class="ti ti-logout"></i> خروج</button>
   </div>
 </aside>
@@ -2932,8 +2932,8 @@ a{color:inherit;text-decoration:none}
     </div>
   </div>
   <div class="dash-footer">
-    <span class="df-text">codebox RVG Gateway v9.2 · Railway · 2025</span>
-    <a class="df-link" href="https://t.me/CodeBoxo" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/CodeBoxo</a>
+    <span class="df-text">Zebramaxbot Dragon Gateway v9.2 · Railway · 2025</span>
+    <a class="df-link" href="https://t.me/Zebramaxbot" target="_blank"><i class="ti ti-brand-telegram"></i> t.me/Zebramaxbot</a>
   </div>
 </section>
 <section class="pg" id="pg-links">
@@ -6213,7 +6213,7 @@ def get_public_page_html(uuid_key: str) -> str:
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>RVG Sub · codebox</title>
+<title>RVG Sub · Zebramaxbot</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
@@ -6415,17 +6415,17 @@ html,body{{min-height:100%;background:var(--bg);font-family:var(--serif);color:v
   <div class="top">
     <div class="brand">
       <div class="brand-img"><img src="https://yt3.googleusercontent.com/vA6bYj1V386YmibpWRNFJtsRRqwfY_U9wnb7gmW90eRVXyNB7gAfjj1XPs5UX0cdKdQprrI=s160-c-k-c0x00ffffff-no-rj" alt="cb"></div>
-      <div><div class="brand-name">codebox</div><div class="brand-sub">RVG Gateway · v9.2</div></div>
+      <div><div class="brand-name">Zebramaxbot</div><div class="brand-sub">Dragon Gateway · v9.2</div></div>
     </div>
     <div class="top-actions">
       <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="تغییر تم"><i class="ti ti-sun" id="theme-icon"></i></button>
-      <a class="icon-btn" href="https://t.me/CodeBoxo" target="_blank" title="کانال تلگرام"><i class="ti ti-brand-telegram"></i></a>
+      <a class="icon-btn" href="https://t.me/Zebramaxbot" target="_blank" title="کانال تلگرام"><i class="ti ti-brand-telegram"></i></a>
     </div>
   </div>
   <div id="root">
     <div class="empty-state"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite"></i>در حال بارگذاری...</div>
   </div>
-  <div class="footer">کانال رسمی: <a href="https://t.me/CodeBoxo" target="_blank">@CodeBoxo</a> · RVG Gateway v9.2</div>
+  <div class="footer">کانال رسمی: <a href="https://t.me/Zebramaxbot" target="_blank">@Zebramaxbot</a> · Dragon Gateway v9.2</div>
 </div>
 <script>
 const UUID_KEY='{uuid_key}';
